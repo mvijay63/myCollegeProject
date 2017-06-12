@@ -1,0 +1,388 @@
+﻿body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+
+  h3, h4 {
+      margin: 15px 0px 25px 0;
+      letter-spacing: 2px;      
+      font-size: 20px;
+      color: white;
+      font-family:Arial;
+  }
+
+  h2{
+      font-family:Arial;
+      color:white;
+  }
+
+  .container {
+      padding: 80px 120px;
+  }
+  
+  .carousel-inner img {
+      
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+
+  .CarouselZindex{
+      z-index:0;
+  }
+
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+
+  .nav-tabs li a {
+      color: #777;
+  }
+
+  .navbar {
+      font-family:Arial;
+      margin-bottom: 0;
+      background:rgba(255, 255, 255,1);
+      border: 0;
+      padding-top:25px;
+      padding-bottom:25px;
+      font-size: 12px !important;
+      letter-spacing: 4px;
+      z-index:1;
+      
+  }
+
+  .navbar img{
+      margin-top:-40px;
+  }
+
+  .navbar li a, .navbar .navbar-brand { 
+      color:black !important;
+      
+  }
+
+  .navbar-nav li:hover{
+      background-color:#F0F0F0;
+      transition:0.7s;
+  }
+
+  .navbar-nav li a:hover {
+      color: black !important;
+  }
+
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #F0F0F0 !important;
+  }
+
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+
+  .dropdown-menu li a:hover {
+      background-color: #F0F0F0 !important;
+  }
+
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+
+  footer a {
+      color: #f5f5f5;
+  }
+
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+
+  .form-control {
+      border-radius: 0;
+  }
+
+  textarea {
+      resize: none;
+  }
+
+  .ColorWhite{
+      color:white;
+  }
+
+  .RowNoMargin{ /*remove margin from div*/
+      margin-left:-80px;
+      margin-right:-80px;
+     
+  }
+
+  .NoImageMargin{
+      margin-left:-15px;
+      margin-right:15px;
+  }
+
+  .EqualHeight{
+       display:table;
+      width:100%;
+  }
+
+  .TableCell{    /*equal the height of all column */
+      display:table-cell;
+  }
+
+  .SubNoPad{
+      padding-top:15px;
+      padding-bottom:15px;
+  }
+
+  .ColorWhite{
+      color:white;
+  }
+
+  .font20{
+      font-size:medium;
+  }
+
+  .subscribeMargin{
+      margin-top:25px;
+  }
+
+  .SubscribeEmail{
+      width:100%
+  }
+
+  .BottomBorder{
+      border-bottom:1px solid #3EB8D7;
+  }
+
+  .LiPad li{
+     padding:1px 1px 1px 0px;
+      list-style-type:none;
+      margin-left:-35px
+      
+  }
+
+  .TextareaStyle{
+      resize:vertical;
+      margin-top:10px;
+      background-color:#222222;
+      border:1px solid #777777;
+      display:block;
+  }
+
+  .ContactUsEmail{
+      border:1px solid #777777;
+      background-color:#222222;
+  }
+
+  .ContactUsButton{
+      border:1px solid #777777;
+      background-color:#222222;
+      margin-top:10px;
+  }
+
+  .AllRightReserved {
+    border-top: 1px solid #777777;
+    background-color:#222222;
+  }
+
+  .HeaderSearch{
+      margin-top:10px;
+      padding:3px 1px 3px 1px;
+      width:100px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+  }
+
+  .HeaderSearch:focus{
+      width: -100%;
+  }
+
+  /*parallax*/
+  .ParallaxBackground{
+      position:relative;
+      height:400px;
+      background-image:url(../../images/ParallaxBackground.jpg);
+      background-size:cover;
+      background-position:top center;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      padding:0px;
+      overflow:hidden;
+      
+  }
+
+  .ParallaxLogo{
+   
+      /*width:80%;*/
+      height:inherit;
+      background-image:url(../../images/logoo.png);
+      
+      background-position:top right;
+      background-repeat:no-repeat;
+     
+  }
+
+  .ParallaxMainDivPad{
+      padding-left:15px;
+      padding-right:15px;
+  }
+
+  /* popup login modal*/
+  .LoginPopupbackgroud{
+      display:none;
+      position:fixed;
+      left:0px;
+      z-index:2;
+      top:0px;
+      width:100%;
+      height:100%;
+      
+      background:rgba(0,0,0,0.6);
+      overflow:auto;
+  }
+
+  .LoginPopup{
+      width:50%;
+      margin:60px auto 30px auto;
+      font-family:Arial;
+      
+  }
+
+ .LoginImageDiv{
+     margin-top:15%;
+ }
+
+ .LoginemageSize{
+     width:90%;
+     height:90%;
+ }
+ 
+ .LoginLoginTxtEdit{
+     font-size:20px;
+     color:#997788;
+     background-color:#EEF3FA;
+     margin-bottom:50px;
+ }
+
+ .LoginTextbox{
+     border-radius:3px;
+     border:1px solid #EBEBEB;
+ }
+
+  .LoginNestedLoop{
+      padding-left:5%;
+      padding-right:5%;
+      padding-bottom:10%;
+  }
+
+  .LoginButton{
+      float:right;
+      background-color:#5DC15D;
+      color:white;
+      border:none;
+      border-radius:3px;
+      width:90px;
+      display:block;
+  }
+
+  .LoginText{
+      display:block;
+      font-weight:500;
+  }
+ 
+
+  .LoginPopupZoomIn{
+      -webkit-animation-name:ZoomUp;
+      -webkit-animation-duration:1s;
+      animation-name:ZoomUp;
+      animation-duration:0.5s;
+  }
+
+  @-webkit-keyframes ZoomUp{
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+  }
+
+  @keyframes ZoomUp{
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+  }
+
+
+  @media screen and (max-width:968px) {
+       .navbar img{
+          width:180px;
+          height:90px;
+      }
+  }
+  
+  @media screen and (max-width:700px){
+      .LoginPopupCancelBtn button{
+          width:70px;
+      }
+      .LoginPopupImage img{
+          width:250px;
+          height:85px;
+      }
+     
+  }
+
+  @media screen and (max-width:400px){
+    .LoginPopup {
+        width: 80%;
+        margin: 60px auto 30px auto;
+        font-family: Arial;
+    }
+         .LoginPopupImage img{
+          width:150px;
+          height:70px;
+      }
+  }
+
+  .GeneralHeader{                  /* header portion behind nav*/
+    width:100%;
+    height:100px;
+}
+
+  .FindNoPadding{
+    padding:0px;
+}
+
+.FindNoMargin {
+    margin: 0px;
+}
+
+  .OnloadPopUp{
+      
+      width:80%;
+      margin:13% auto 30px auto;
+      font-family:Arial;
+      background-color:white;
+      padding-bottom:20px;
+  }
+
+  .OnloadPopupImages{
+      display:block;
+  }
+
+  .imagelogo{
+      padding-left:10%;
+  }
+
+  

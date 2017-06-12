@@ -1,0 +1,145 @@
+﻿
+
+        .bodyClass {
+           
+        }
+        .auto-style11 {
+            width:100%;
+            padding-left:10%;
+            padding-top:20px;
+            font-family :"Times New Roman", Times, serif;
+            Font-Size: 18px;
+            height: 250px;
+            background-color:aquamarine;
+            
+           
+        }
+        .search {
+            padding-left:120px;
+
+        }
+        .first {
+            width:35%;
+          
+            padding-left:240px;
+            height:273px;
+            float:left;
+        }
+        .third {
+            
+            width:34%;
+            float:right;
+            height:273px;
+            padding-right:150px;
+        }
+        
+        
+        
+        .content {
+            width: 30%;
+            margin-left: 35%;
+            margin-right: 30%;
+            display: block;
+            border: 2px ridge;
+            float:left;
+            position:absolute;
+             margin-bottom:20px;
+            
+        }
+        .caption {
+            background-color:silver;
+        }
+
+        .auto-style1 {
+            width: 100%;
+        }
+
+        .appTd {
+            padding-left:100px;
+        }
+        .appButton {
+            height:40px;
+            width:200px;
+            border:2px solid black;
+            border-radius:25px;
+            font-size:20px;
+            font-family:Arial;
+        }
+
+            .appButton :hover {
+               background-color : lightgreen;
+                cursor : default ;
+                border : 2px solid white;
+
+            }
+        .auto-style3 {
+            width: 449px;
+        }
+
+       .degree {
+            height: 23px;
+            width: 449px;
+           
+            font-weight:lighter;
+        }
+
+        .docImageTd {
+            width: 150px;
+            padding-left:30px;
+            padding-bottom:120px;
+        }
+
+        .auto-style6 {
+            height: 23px;
+        }
+        .dropdown {
+    
+              border: 1px ridge;
+              font-family :  "Times New Roman", Times, serif;
+              Font-Size: 18px;
+              Height : 30px; 
+              Width : 200px;
+            text-align: right;
+        }
+
+        .rptrTable {
+            width:100%;
+            font-family:Calibri;
+            font-size:20px;
+            border:1px ridge;
+            margin-top:20px;
+            background-color:whitesmoke;
+        }
+
+        .rptrDiv {
+            
+            margin-left:10%;
+            margin-right:10%;
+         
+        }
+        .tableHead {
+            background-color:#00CC66;
+            text-align:center;
+             
+
+
+        }
+         .tableHead1 {
+           font-weight:bold;
+            
+
+        }
+        .tableHeadContent {
+            text-align:center;
+            
+        }
+        .docName {
+            font-size:30px;
+            color:orange;
+            
+        }
+.docImage {
+    height: 100px;
+    width: 100px;
+}
+

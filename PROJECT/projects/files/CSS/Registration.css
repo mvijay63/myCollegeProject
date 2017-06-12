@@ -1,0 +1,63 @@
+﻿body {
+}
+.header{
+    background-color:#3065B5;
+    color:white;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+.header h1{
+    margin:0px;
+}
+.SecondHeader{
+    background:linear-gradient(rgba(48,101,181,0.5),rgba(48,101,181,0.5)),url("../../images/CloudyNight.jpg");
+    color:white;
+    font-family:Arial;
+    font-size:50px;
+    padding-top:10px;
+    
+}
+.Menu button{
+    display:block;
+    width:100%;
+    margin:0px;
+    border:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    background-color:#3EB8D7;
+    color:white;
+    text-decoration:solid;
+    text-align:left;
+}
+
+.Menu button:hover{
+    background-color:#3065B5;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition:0.5s;
+}
+
+.Menu button.active{
+    background-color:#0392CE;
+}
+
+.NoPadding{
+    padding:0px;
+}
+.NoMargin{
+    margin:0px;
+}
+.IframeNoPadding{
+    padding-left:20px;
+   padding-top:20px;
+   
+}
+
+.HospitalRegSubmitBtnPad{
+    margin-left:15px;
+}
+.HospitalRegSubmitBtnPad:hover{
+    background-color:#3065B5;
+    box-shadow:5px 5px 5px #A8A8A8 ;
+}

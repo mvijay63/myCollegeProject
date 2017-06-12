@@ -1,0 +1,23 @@
+﻿
+body {
+}
+header{
+    border-bottom:2px solid #A0A0A0;
+}
+.PadVerticalMenu {
+    padding: 0px;
+    margin:0px;
+}
+
+.VerticalMenuBlock span{
+    display:block;
+    width:100%;
+    background-color:#0093D5;
+    color:white;
+    padding:5px 10px 5px 10px;
+}
+.VerticalMenuBlock span:hover{
+    text-decoration:none;
+    cursor:pointer;
+    background-color:#3065B5;
+}
